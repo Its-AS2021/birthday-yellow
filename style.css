@@ -1416,3 +1416,31 @@ input[type="date"]::-webkit-calendar-picker-indicator { filter: invert(1); opaci
     font-weight:600;
     font-size:1rem;
 }
+/* ===== AS MESSAGE ===== */
+
+.as-message{
+    text-align: center;
+    margin: 60px 0;
+
+    font-family: "Bell MT", serif;
+    font-size: 28px;
+    font-weight: normal;
+
+    color: #FFD700;
+    letter-spacing: 2px;
+
+    text-shadow:
+        0 0 10px rgba(255,215,0,0.5),
+        0 0 20px rgba(255,215,0,0.3);
+
+    animation: glowPulse 2.5s ease-in-out infinite;
+}
+
+@keyframes glowPulse{
+    0%,100%{
+        opacity: 0.8;
+    }
+    50%{
+        opacity: 1;
+    }
+}
