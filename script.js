@@ -117,7 +117,7 @@ function populatePage() {
 
   document.getElementById('ageBadge').textContent  = `🎂 Turning ${personAge} Today!`;
   document.getElementById('heroName').textContent   = personName;
-  document.getElementById('heroTagline').textContent = `Wishing the most magical birthday to someone truly extraordinary.`;
+  document.getElementById('heroTagline').textContent = `Sometimes the most unexpected friendships become the most special ones💛`;
   document.getElementById('heroDate').textContent   = `📅 Born: ${formatDate(personDOB)}`;
   startNextBdayCountdown(personDOB);
 
